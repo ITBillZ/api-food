@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="api-food:war exploded" />
+      <artifact name="api-food:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,7 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c31b667f-2c45-4bb7-b43c-3453c6915305" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/pojo/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/web/FoodServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/itbill/UnitTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -59,16 +69,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "P:/TraceFood/api-food/src/main/resources",
+    "last_opened_file_path": "D:/Softwares/jdk8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -82,6 +92,22 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.83">
+    <configuration name="UnitTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-food" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itbill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itbill" />
+      <option name="MAIN_CLASS_NAME" value="cn.itbill.UnitTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnitTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-food" />
       <extension name="coverage">
@@ -101,7 +127,6 @@
     <configuration name="Tomcat 8.5.83" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.83" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="api-food:war exploded">
           <settings>
@@ -188,11 +213,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.UnitTest.test" />
       <item itemvalue="JUnit.UnitTest.testSelectAll" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.83" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnitTest.test" />
         <item itemvalue="JUnit.UnitTest.testSelectAll" />
       </list>
     </recent_temporary>
@@ -205,7 +232,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675628554391</updated>
-      <workItem from="1675628557422" duration="10508000" />
+      <workItem from="1675628557422" duration="24869000" />
     </task>
     <servers />
   </component>
