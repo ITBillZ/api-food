@@ -1,62 +1,72 @@
 package cn.itbill.pojo;
 
 import java.sql.Date;
+import java.util.List;
 
 public class Food {
-    private int id;
-    private String name;
-    private String cate;
-    private String manufacturer;
-    private Date prodDate;
-    private String validTime;
+    private Integer food_id;
+    private String title;
+    private String category_title;
+    private String cook_name;
+    private Date prod_time;
+    private String valid_day;
     private String img;
+    private List<Ingredient> ingredients;
 
-    public int getId() {
-        return id;
+    public List<Ingredient> getIngredients() {
+        return ingredients;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIngredients(List<Ingredient> ingredients) {
+        this.ingredients = ingredients;
     }
 
-    public String getName() {
-        return name;
+    public Integer getFood_id() {
+        return food_id;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFood_id(Integer food_id) {
+        this.food_id = food_id;
     }
 
-    public String getCate() {
-        return cate;
+    public String getTitle() {
+        return title;
     }
 
-    public void setCate(String cate) {
-        this.cate = cate;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getManufacturer() {
-        return manufacturer;
+    public String getCategory_title() {
+        return category_title;
     }
 
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
+    public void setCategory_title(String category_title) {
+        this.category_title = category_title;
     }
 
-    public Date getProdDate() {
-        return prodDate;
+    public String getCook_name() {
+        return cook_name;
     }
 
-    public void setProdDate(Date prodDate) {
-        this.prodDate = prodDate;
+    public void setCook_name(String cook_name) {
+        this.cook_name = cook_name;
     }
 
-    public String getValidTime() {
-        return validTime;
+    public Date getProd_time() {
+        return prod_time;
     }
 
-    public void setValidTime(String validTime) {
-        this.validTime = validTime;
+    public void setProd_time(Date prod_time) {
+        this.prod_time = prod_time;
+    }
+
+    public String getValid_day() {
+        return valid_day;
+    }
+
+    public void setValid_day(String valid_day) {
+        this.valid_day = valid_day;
     }
 
     public String getImg() {
@@ -67,16 +77,5 @@ public class Food {
         this.img = img;
     }
 
-    @Override
-    public String toString() {
-        return "Food{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", cate='" + cate + '\'' +
-                ", manufacturer='" + manufacturer + '\'' +
-                ", prodDate=" + prodDate +
-                ", validTime='" + validTime + '\'' +
-                ", img='" + img + '\'' +
-                '}';
-    }
+
 }

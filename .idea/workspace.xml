@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="api-food:war" />
+      <artifact name="api-food:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,16 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c31b667f-2c45-4bb7-b43c-3453c6915305" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/pojo/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/web/FoodServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/itbill/UnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_food_war/api-food_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/api_food_war/api-food_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/Util/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/Util/ResultCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/pojo/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/pojo/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/service/FoodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/web/FoodServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/web/FoodServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/Util/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/Util/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/utils/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/mapper/FoodMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/mapper/FoodMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/SwiperData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/HomeSwiper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/service/FoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/service/FoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/web/SwiperDataServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/web/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cn/itbill/mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cn/itbill/mapper/FoodMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,9 +59,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="P:\TraceFood\maven" />
-        <option name="mavenHome" value="D:/Softwares/apache-maven-3.8.6" />
-        <option name="userSettingsFile" value="D:\Softwares\apache-maven-3.8.6\conf\settings.xml" />
+        <option name="localRepository" value="T:\Code\TraceFood\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="T:\Code\TraceFood\maven\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -64,28 +74,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Softwares/jdk8",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;P:/TraceFood/api-food&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="P:\TraceFood\api-food\src\main\resources" />
@@ -125,6 +136,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.83" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.83" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -232,7 +244,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675628554391</updated>
-      <workItem from="1675628557422" duration="24869000" />
+      <workItem from="1675628557422" duration="33328000" />
+      <workItem from="1675871803598" duration="1809000" />
+      <workItem from="1675927470140" duration="5461000" />
+      <workItem from="1676194951404" duration="10923000" />
+      <workItem from="1676285722665" duration="13350000" />
+      <workItem from="1676467358847" duration="5248000" />
+      <workItem from="1676771179948" duration="77000" />
     </task>
     <servers />
   </component>
@@ -249,5 +267,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
