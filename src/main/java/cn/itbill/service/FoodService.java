@@ -7,7 +7,9 @@ import cn.itbill.utils.ResultCode;
 import com.alibaba.fastjson2.JSON;
 import org.apache.ibatis.session.SqlSession;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
@@ -38,10 +40,6 @@ public class FoodService extends Service {
 		return JSON.toJSONString(result);
 	}
 
-
-
-
-
 	public String selectTitleByKeyWord(String title) {
 		SqlSession sqlSession = sqlSessionFactory.openSession();
 		FoodMapper mapper = sqlSession.getMapper(FoodMapper.class);
@@ -51,4 +49,5 @@ public class FoodService extends Service {
 		sqlSession.close();
 		return JSON.toJSONString(result);
 	}
+
 }

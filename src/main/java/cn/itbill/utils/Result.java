@@ -33,4 +33,9 @@ public class Result implements Serializable {
         Result result = new Result(ResultCode.FAIL.getStatus(), null);
         return JSON.toJSONString(result);
     }
+
+    public static String getSuccessMsg() {
+        Result result = new Result(ResultCode.SUCCESS.getStatus(), null);
+        return JSON.toJSONString(result);
+    }
 }

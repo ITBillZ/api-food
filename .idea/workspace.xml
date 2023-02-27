@@ -10,23 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c31b667f-2c45-4bb7-b43c-3453c6915305" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/api_food_war/api-food_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/api_food_war/api-food_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/Util/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/Util/ResultCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/pojo/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/pojo/Food.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/service/FoodService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/web/FoodServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/web/FoodServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/Util/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/utils/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/Util/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/utils/ResultCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/mapper/FoodMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/mapper/FoodMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/SwiperData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/HomeSwiper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/service/FoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/service/FoodService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/web/SwiperDataServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/web/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/cn/itbill/mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cn/itbill/mapper/FoodMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Tag Library Descriptor" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -94,6 +85,9 @@
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
       &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;MySQL&quot;
     ]
   }
 }</component>
@@ -102,7 +96,20 @@
       <recent name="P:\TraceFood\api-food\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.83">
+  <component name="RunManager" selected="Application.PlateAPI">
+    <configuration name="PlateAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itbill.api.PlateAPI" />
+      <module name="api-food" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itbill.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnitTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-food" />
       <extension name="coverage">
@@ -225,12 +232,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PlateAPI" />
       <item itemvalue="JUnit.UnitTest.test" />
       <item itemvalue="JUnit.UnitTest.testSelectAll" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.83" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlateAPI" />
         <item itemvalue="JUnit.UnitTest.test" />
         <item itemvalue="JUnit.UnitTest.testSelectAll" />
       </list>
@@ -251,6 +260,8 @@
       <workItem from="1676285722665" duration="13350000" />
       <workItem from="1676467358847" duration="5248000" />
       <workItem from="1676771179948" duration="77000" />
+      <workItem from="1677339687073" duration="9834000" />
+      <workItem from="1677491873517" duration="6606000" />
     </task>
     <servers />
   </component>

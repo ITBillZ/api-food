@@ -18,7 +18,7 @@
     </resultMap>
 
     <select id="selectAllForList" resultType="Food">
-        select food_id, title, img from foods limit 50;
+        select food_id, title, img, price, total_number, activate from foods limit 50;
     </select>
 
     <select id="selectTitleByKeyWord" resultType="Food">
@@ -34,7 +34,10 @@
                f.valid_day,
                f.img,
                i.title    as "ingredient_title",
-               fi.consumption
+               fi.consumption,
+               f.price,
+               f.total_number,
+               f.activate
         from foods f
                  join food_ingredient fi on f.food_id = fi.food_id
                  join ingredients i on fi.ingredient_id = i.ingredient_id
@@ -42,4 +45,6 @@
                  join categories cate on f.category_id = cate.category_id
         where f.food_id = #{food_id};
     </select>
+
+    
 </mapper>

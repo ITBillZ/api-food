@@ -12,6 +12,33 @@ public class Food {
     private String valid_day;
     private String img;
     private List<Ingredient> ingredients;
+    private Integer price;
+    private Integer total_number;
+    private boolean activate;
+
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
+
+    public Integer getTotal_number() {
+        return total_number;
+    }
+
+    public void setTotal_number(Integer total_number) {
+        this.total_number = total_number;
+    }
+
+    public boolean isActivate() {
+        return activate;
+    }
+
+    public void setActivate(boolean activate) {
+        this.activate = activate;
+    }
 
     public List<Ingredient> getIngredients() {
         return ingredients;
