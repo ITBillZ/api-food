@@ -14,16 +14,14 @@ import java.util.List;
 import java.util.Map;
 
 public class PlateService extends Service{
-	public void updateByMap(Map<Integer, ArrayList<Integer>> plateMap) {
-		for (Map.Entry<Integer, ArrayList<Integer>> entry : plateMap.entrySet()) {
-			Integer plate_id = entry.getKey();
-			ArrayList<Integer> food_ids = entry.getValue();
-			deleteById(plate_id);
-			for (Integer food_id : food_ids) {
-				insert(plate_id, food_id, Timestamp.valueOf(LocalDateTime.now()));
-			}
+
+	public void updateByPlateId(Integer plate_id, ArrayList<Integer> foodList) {
+		deleteById(plate_id);
+		System.out.println(foodList);
+		for (Integer food_id : foodList) {
+			insert(plate_id, food_id, Timestamp.valueOf(LocalDateTime.now()));
 		}
-		plateMap.clear();
+		System.out.print("updateByPlateId");
 	}
 
 

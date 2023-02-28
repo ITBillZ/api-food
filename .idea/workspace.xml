@@ -10,15 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c31b667f-2c45-4bb7-b43c-3453c6915305" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/mapper/FoodMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/pojo/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/pojo/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/service/FoodService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/web/FoodServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/web/FoodServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/pojo/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/service/FoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/service/FoodService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/utils/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/web/FoodServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cn/itbill/mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cn/itbill/mapper/FoodMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_food_war/api-food_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/api_food_war/api-food_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/api/PlateAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/api_food_war_exploded/WEB-INF/classes/cn/itbill/api/PlateAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/api/PlateAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/api/PlateAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/service/PlateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/service/PlateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itbill/web/PlateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itbill/web/PlateServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +257,8 @@
       <workItem from="1676467358847" duration="5248000" />
       <workItem from="1676771179948" duration="77000" />
       <workItem from="1677339687073" duration="9834000" />
-      <workItem from="1677491873517" duration="6606000" />
+      <workItem from="1677491873517" duration="10031000" />
+      <workItem from="1677574845092" duration="4386000" />
     </task>
     <servers />
   </component>
